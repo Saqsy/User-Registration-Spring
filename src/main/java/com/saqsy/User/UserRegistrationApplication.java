@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"com.saqsy.User.App"})
 public class UserRegistrationApplication {
 
 	public static void main(String[] args) {
