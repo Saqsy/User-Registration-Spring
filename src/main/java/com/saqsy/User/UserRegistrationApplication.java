@@ -1,9 +1,11 @@
-package com.saqsy.User.Registration;
+package com.saqsy.User;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
+@EntityScan(basePackages = {"com.saqsy.User.App"})
 public class UserRegistrationApplication {
 
 	public static void main(String[] args) {
